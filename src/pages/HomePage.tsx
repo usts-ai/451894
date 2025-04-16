@@ -59,9 +59,7 @@ const HomePage: React.FC = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 1, delay: 0.5 }}
-            className="absolute bottom-[-30px] left-0 right-0 flex justify-center"
           >
-            <div className="h-16 w-1 bg-amber-400"></div>
           </motion.div>
         </div>
       </section>
